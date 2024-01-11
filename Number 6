@@ -1,0 +1,7 @@
+colour = str(input("Enter your favourite colour")).lower()
+
+if colour == "red":
+  print("I like red too")
+
+elif colour != "red":
+  print("I do not like", colour,",I prefer red")
