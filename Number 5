@@ -1,0 +1,6 @@
+billPrice = int(input("Enter the total price of the bill"))
+people = int(input("How many people are there "))
+
+individualPrice = billPrice / people
+
+print("Each person must pay", individualPrice)
